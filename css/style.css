@@ -154,8 +154,8 @@ b, strong { font-weight: bold; }
 	}
 	
 	.padding-pictures { 
-		padding-top: 100px; 
-		padding-bottom: 100px;  
+		padding-top: -50px; 
+		padding-bottom: -50px;  
 	}
 
 
