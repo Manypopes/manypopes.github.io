@@ -153,6 +153,12 @@ b, strong { font-weight: bold; }
 		padding-bottom: 50px;  
 	}
 	
+	/* Padding to space paragraphs from following images */
+	.padding-image {
+		padding-top: 20px; 
+		padding-bottom: 20px;  
+	}
+	
 
 	/* Used frequently to apply a light border on top */
 	.border-top {
