@@ -31,8 +31,8 @@
 }
 
 .video {
-  width: 860px;
-  height: 484px;
+  width: 680px;
+  height: 383px;
 }
 
 .desktop-1 {
@@ -323,7 +323,8 @@
     width: 660px;
   }
   .video {
-    height: 619px;
+    width: 620px;
+	height: 349px
   }
   .desktop-1 {
     width: 55px;
@@ -616,9 +617,9 @@
     padding-right: 20px;
   }
   .video {
-  width: 280px;
-  height: 158px;
-}
+    width: 240px;
+    height: 135px;
+  }
   .desktop-1,
   .tablet-1 {
     width: 280px;
@@ -783,6 +784,10 @@
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 400px;
+  }
+  .video {
+    width: 360px;
+    height: 203px;
   }
   .desktop-1,
   .tablet-1 {
