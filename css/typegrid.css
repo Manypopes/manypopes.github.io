@@ -29,6 +29,12 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+.video {
+  width: 860px;
+  height: 484px;
+}
+
 .desktop-1 {
   width: 80px;
 }
@@ -169,6 +175,12 @@
   .container {
     width: 1200px;
   }
+  
+  .video {
+  width: 860px;
+  height: 484px;
+}
+
   .desktop-1 {
     width: 100px;
   }
@@ -309,6 +321,9 @@
 @media screen and (min-width: 768px) and (max-width: 959px) {
   .container {
     width: 660px;
+  }
+  .video {
+    height: 619px;
   }
   .desktop-1 {
     width: 55px;
@@ -600,6 +615,10 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .video {
+  width: 280px;
+  height: 158px;
+}
   .desktop-1,
   .tablet-1 {
     width: 280px;
