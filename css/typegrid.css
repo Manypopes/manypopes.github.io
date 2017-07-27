@@ -29,6 +29,10 @@
   padding-left: 0;
   padding-right: 0;
 }
+.video {
+  /*width: 680px;*/
+  height: 383px;
+}
 .desktop-1 {
   width: 80px;
 }
@@ -168,6 +172,10 @@
 @media screen and (min-width: 1300px) {
   .container {
     width: 1200px;
+  }
+  .video {
+    /*width: 860px;*/
+    height: 484px;
   }
   .desktop-1 {
     width: 100px;
@@ -309,6 +317,10 @@
 @media screen and (min-width: 768px) and (max-width: 959px) {
   .container {
     width: 660px;
+  }
+  .video {
+    /*width: 620px;*/
+    height: 349px;
   }
   .desktop-1 {
     width: 55px;
@@ -600,6 +612,10 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .video {
+    /*width: 240px;*/
+    height: 135px;
+  }
   .desktop-1,
   .tablet-1 {
     width: 280px;
@@ -764,6 +780,10 @@
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 400px;
+  }
+  .video {
+    /*width: 360px;*/
+    height: 203px;
   }
   .desktop-1,
   .tablet-1 {
