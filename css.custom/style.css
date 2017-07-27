@@ -57,25 +57,20 @@ body {
 --------------------------------------------------------------------------*/
 
 /* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 { font-weight: bold; }
+h1,h2,h3 { font-weight: bold; }
 
+h4,h5,h6 { font-weight: bold; font-size: 2em;}
 
 
 /* Links */
 a,
-a:visited {
-	color: #333;
-	text-decoration: none;
+a:link {
+	color: #999999;
+	text-decoration: underline;
 	outline: 0;
 }
-
 a:hover,
-a:focus { color: black; }
+a:focus { color: #22eedd; }
 p a,
 p a:visited { line-height: inherit; }
 
@@ -152,8 +147,8 @@ b, strong { font-weight: bold; }
 		padding-top: 50px; 
 		padding-bottom: 50px;  
 	}
-
-
+	
+	
 
 	/* Used frequently to apply a light border on top */
 	.border-top {
@@ -824,7 +819,7 @@ b, strong { font-weight: bold; }
 	}
 
 		#works.single img { 
-			margin-bottom: 60px; 
+			margin-bottom: 0px; 
 		}
 
 		#works.single .box-info {
