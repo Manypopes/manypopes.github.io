@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Henry Gibson</title>
+	<title>PC Case Ducting</title>
 	<meta name="description" content=".">
 	<meta name="author" content="">
 	
@@ -67,73 +67,74 @@
 					<h1><a href="index.html" title="Home"><img src="images/logo_text_half.png" alt="" /></a></h1>
 				</div><!-- // .desktop-6 -->
 
-				<div class="desktop-6 columns">
-					<p class="site-desc">
-						Engineer<br />
-						<span class="font-color-primary">Mechanical Engineering (MEng) with Class One Honours</span>
-					</p><!-- // .site-desc -->
-				</div><!-- // .desktop-6 -->
-
 				<div class="clear"></div>
 			</div><!-- // .container -->
 		</div><!-- // .logo-wrap -->
 	</section><!-- // #header -->
 
-
-	<!-- Works
+	<!-- Work - Single Page (Left Sidebar)
 	================================================== -->
-	<section id="works">
+	<section id="works" class="page single">
 		<div class="container">
-			<div class="desktop-12 columns"><div class="border-top"></div></div>
 
-				<a href="griffin_cnc.html" class="permalink">
-					<div class="desktop-3 mobile-half columns">
-						<div class="item first-row">
-							<h3>Three Axis CNC Milling Machine</h3>
-							<span class="category">Master's Project</span>
+			<div class="desktop-3 tablet-12 nested columns">
 
-							<img src="images/cnc/thumbnail.jpg" alt="" />
-						</div><!-- // .item -->
+				<div class="sidebar sticky">
+
+					<div class="desktop-3 tablet-12 columns">
+					
+						<div class="box-info">
+							<h3 class="border-top">Python Data Visualisation</h3>
+							<p class="project-desc">2020 - 2021</p>
+
+							<p>My day to day role at Martin-Baker Aircraft Company required me to keep track of large quantities of test data, covering tens of parameters across hundreds of products.</p>
+							<p>In order to facilitate this, I have created a simple but effective Python GUI, which loads Excel data into a central SQL database, and then displays it conveniently in seconds.</p>
+						</div><!-- // .box-info -->
+
 					</div><!-- // .desktop-3 -->
-				</a>
 
-				<a href="data_visualiser.html" class="permalink">
-					<div class="desktop-3 mobile-half columns">
-						<div class="item first-row">
-							<h3>Python Data Visualisation Tool</h3>
-							<span class="category">Programming Project</span>
+					<div class="clear"></div>
 
-							<img src="images/visualiser/thumbnail.png" alt="" />
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
+				</div><!-- // .sticky -->
+
+			</div><!-- // .desktop-3 .nested -->
+
+			<div class="desktop-9 tablet-12 columns">
+				<img src="images/visualiser/overview.png" alt="" /><br />
+				The program is set up to display a series of test results for a specific product, alongside acceptance limits, which can be used to quickly review performance over time (psuedo-data shown).
+				<div class="padding-vertical" alt="" />
 				
-				<a href="project_hex.html" class="permalink">
-					<div class="desktop-3 mobile-half columns">
-						<div class="item first-row">
-							<h3>Project Hex</h3>
-							<span class="category">IMechE UAS Challenge 2016</span>
-
-							<img src="images/hex/thumbnail.jpg" alt="" />
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
+				<img src="images/visualiser/spreadsheet.png" alt="" /><br />
+				Data is stored per-test in .xlsx files (psuedo-data shown). Previously this data had to be compiled manually using Excel, which was extremely time consuming and obtrusive.
+				<div class="padding-vertical" alt="" />
 				
-				<a href="ducting.html" class="permalink">
-					<div class="desktop-3 mobile-half columns">
-						<div class="item first-row">
-							<h3>Computer Case Ducting</h3>
-							<span class="category">Personal Project</span>
-
-							<img src="images/ducting/thumbnail.jpg" alt="" />
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
+				<img src="images/visualiser/import.png" alt="" /><br />
+				My Python tool will quickly load a range of files, and save their data to a central SQLite database, where it is easily accessible by the rest of the program. My code utilises multi-threading to minimise read/write delays.
+				<div class="padding-vertical" alt="" />
 				
-				<div class="clear"></div>
-			
+				<img src="images/visualiser/temperature.png" alt="" /><br />
+				Once data is stored in the database, it can be instantly visualised. Further controls allow filtering by test temperature, and colour-coding by categorical variables.
+				<div class="padding-vertical" alt="" />
+				
+				<img src="images/visualiser/colouring.png" alt="" /><br />
+				The active figure can then easily be saved as a .png, .pdf etc. for sharing.
+				<div class="padding-vertical" alt="" />
+				
+				<img src="images/visualiser/outlier.png" alt="" /><br />
+				Previously, it was too time consuming to review all data, meaning drifts in performacne could go unseen. Now, all data can be easily reviewed in a few clicks, allowing performance to be monitored proactively.
+				<div class="padding-vertical" alt="" />
+				
+				<a href="index.html">Back to home</a>
+				
+				
+				
+				
+			</div><!-- // .desktop-9 -->
+
+			<div class="clear"></div>
+
 		</div><!-- // .container -->
-	</section><!-- // section#works -->
+	</section><!-- // section -->
 
 
 
@@ -145,7 +146,7 @@
 			<div class="desktop-3 columns">
 				<p>Website design based on <a href="https://github.com/subwaymatch/typefolio" class="italic">Typefolio</a></p>
 			</div><!-- // .desktop-3 -->
-			
+
 			<div class="clear"></div>
 		</div><!-- // .container -->
 	</section><!-- // section#footer -->
